@@ -1,9 +1,9 @@
 # Standard-Library
 Custom C++ Standard Template Library (STL) implementation created for learning purposes. This project re-implements core STL components and other similar data structures, algorithms, containers, iterators, etc. from scratch to better understand their design, complexity, and underlying mechanisms.
 
+
 ## Note on Coding Style and Testing
 
-This project is a personal learning implementation of C++ STL-like containers.  
 Coding style and conventions may vary across files, since I am experimenting with different approaches as I learn.  
 
 All **production code** in this repository (e.g., `DynamicArray` and other containers) is written by me.  
