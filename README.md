@@ -20,3 +20,7 @@ The only exception is the **testing code in `main.c`** and this `README`, which 
   - Capacity queries (`size`, `capacity`, `empty`)
   - Modifiers (`push_back`, `insert_at`, `pop_back`, `reserve`, `clear`)
   - Search (`find`)
+
+
+
+I will add the rest later...
