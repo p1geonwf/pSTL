@@ -5,6 +5,8 @@
 
 #include "HashMap.h"
 
+using namespace pSTL;
+
 int main() {
     // ===== Test operator[] and basic insertion =====
     {
