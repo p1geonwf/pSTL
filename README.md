@@ -12,7 +12,7 @@ The only exception is the **testing code in `main.c`** and this `README`, which 
 
 ## Currently Implemented
 
-- **Vector**  
+### Vector  
   A vector-like container that supports:
   - Construction (default, size, size + init value, copy, move)
   - Element access (`at`, `operator[]`, `front`, `back`)
