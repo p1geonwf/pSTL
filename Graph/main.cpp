@@ -5,15 +5,17 @@
 #include "Node.h"
 #include "Graph.h"
 
+using namespace pSTL;
+
 int main() {
     Graph<std::pair<double, double>> graph;
     
     const int GRID_SIZE = 1000;
-    std::vector<Node<std::pair<double, double>>*> nodes(GRID_SIZE * GRID_SIZE);
+    std::vector<pSTL::Node<std::pair<double, double>>*> nodes(GRID_SIZE * GRID_SIZE);
 
     id_t id = 0;
     for (int i = 0; i < GRID_SIZE * GRID_SIZE; ++i) {
-        nodes[i] = new Node<std::pair<double, double>>({ i % GRID_SIZE, i / GRID_SIZE }, id++);
+        nodes[i] = new pSTL::Node<std::pair<double, double>>({ i % GRID_SIZE, i / GRID_SIZE }, id++);
         graph.addNode(nodes[i]);
     }
 
