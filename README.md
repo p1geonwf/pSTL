@@ -8,7 +8,7 @@ Custom C++ Standard Template Library (STL) implementation created for learning p
 Coding style and conventions may vary across files, since I am experimenting with different approaches as I learn.  
 
 All **production code** in this repository (e.g., `HashMap` and other containers) is written by me.  
-The only exception is the **testing code in `main.c`** and this `README`, which may include snippets generated with the help of ChatGPT and is used only for simple testing and demonstration purposes.
+The only exception is the **testing code in `main.c`** and this `README`, which will include snippets generated with ChatGPT and is used only for simple testing and demonstration purposes.
 
 ## Currently Implemented
 
