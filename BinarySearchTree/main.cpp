@@ -4,6 +4,8 @@
 
 #include "BinarySearchTree.h"
 
+using namespace pSTL;
+
 void testInsertionAndContains() {
 	BST<int> bst;
 	bst.insert(10);
