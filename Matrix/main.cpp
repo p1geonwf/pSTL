@@ -3,6 +3,8 @@
 #include <iostream>
 #include "Matrix.h"
 
+using namespace pSTL;
+
 template <typename T>
 bool matricesEqual(const Matrix<T>& A, const Matrix<T>& B) {
     if (A.rows() != B.rows() || A.cols() != B.cols())
